@@ -1,0 +1,30 @@
+Source Code:
+CREATE DATABASE School
+use School
+create table Students
+(ID int,
+Name nvarchar(50),
+DateOfBirth date,
+ClassId int )
+
+insert into Students (ID,Name,DateOfBirth,ClassId)values(1,'paul','01/01/2001',101)
+insert into Students (ID,Name,DateOfBirth,ClassId)values(2,'kiran','02/12/2003',102)
+insert into Students (ID,Name,DateOfBirth,ClassId)values(3,'kumar','05/12/2004',103)
+insert into Students (ID,Name,DateOfBirth,ClassId)values(4,'chennuri','09/12/2002',104)
+
+create table Class
+(
+ID int,
+Name varchar(10))
+insert into Class values (1, 'Class8'), (2,'Class7'), (3,'Class6'), (4,'Class9'), (5,'Class10')
+
+create table Subjects(
+ID int,
+Name varchar(50))
+insert into Subjects values (1, 'Hindi'), (2,'Maths'), (3,'Physics'), (4,'Social'), (5,'Chemistry')
+select * from Class
+select * from Students
+select * from Subject
+update students set ID = 3 where name = 'kumar'
+
+

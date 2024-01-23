@@ -1,0 +1,21 @@
+WRITTENUP:
+Step1: Creates a new database named "SCHOOLDB" and then by usingthis database for subsequent operations.
+Step2: Creates a table named "Students" with columns for student details given below,
+StudentID, FirstName, LastName, DateOfBirth, and ClassID. StudentID is the primary key of this table, ensuring each student has a seperate identification.
+Step3: Inserts multiple rows of data into the "Students" table, each representing a
+student's information including StudentID, First Name, Last Name, Date of Birth,
+and ClassID.
+Step4: Creates a table named "Subjects" to store information about subjects. The
+table has columns for SubjectID (primary key) and SubjectName.
+Step5: Inserts rows into the "Subjects" table, representing different subjects
+along with their corresponding IDs and names.
+Step6: Creates a table named "Classes" to store information about classes. The
+table has columns for ClassID (primary key) and ClassName.
+Step7: Nonclustered indexes on specific columns in the respective tables, which
+can help improve query performance when searching for data based on those
+columns.
+Step8: Finally, this code creates a database named "SCHOOLDB," defines tables
+for student information, subjects, and classes, inserts data into these tables,
+creates indexes for better performance, and then retrieves and displays the
+given output stored data.
+
